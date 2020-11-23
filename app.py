@@ -100,3 +100,6 @@ def stats(start=None, end=None):
 """ In the following code, take note of the asterisk in the query next to the set list. 
 Here the asterisk is used to indicate there will be multiple results 
 for our query: minimum, average, and maximum temperatures. """
+
+if __name__=="__main__":
+    app.run(host="localhost", port=8000, debug=True)
